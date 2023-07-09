@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Warhammer</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="log">
+		<ul></ul>
+	</div>
+	<div id="board">
+		<ul>
+			<li><a href="#" id="end">End turn</a></li>
+			<li><a href="#" id="phase">Activate</a></li>
+			<li id="caracteristics">
+				Caracteristics
+				<ul>
+					<li><a href="#" class="upgrade" data-value="life">Life</a> <span id="life">0</span></li>
+					<li><a href="#" class="upgrade" data-value="shield">Shield</a> <span id="shield">0</span></li>
+					<li><a href="#" class="upgrade" data-value="movement">Movement</a> <span id="movement">0</span></li>
+					<li><a href="#" class="upgrade" data-value="power">Power</a> <span id="power">0</span></li>
+					<li>PP <span id="pp">0</span></li>
+				</ul>
+			</li>
+			<li id="list_dice"><a href="#" id="dice">1D6</a>
+				<ul id="draws"></ul>
+			</li>
+			<li id="enemy_caracteristics">
+				Ship caracteristics
+				<ul>
+					<li>Life <span id="enemy_life">0</span></li>
+					<li>Shield <span id="enemy_shield">0</span></li>
+					<li>Movement <span id="enemy_movement">0</span></li>
+					<li>Power <span id="enemy_power">0</span></li>
+					<li>PP <span id="enemy_pp">0</span></li>
+				</ul>
+			</li>
+			<li><a href="#" id="next">Show ship</a></li>
+			<li><a href="#" id="pause">Pause music</a></li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script src="phaser/build/phaser.js"></script>
+<script src="app.js"></script>
+</html>
