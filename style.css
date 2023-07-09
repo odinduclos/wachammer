@@ -1,0 +1,112 @@
+html {
+	background-color: black;
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+section {
+	width: 1100px;
+	margin: auto;
+}
+
+header img {
+	float: left;
+	zoom: 139%;
+	position: relative;
+	z-index: 1;
+}
+
+#menu_left {
+
+}
+
+#menu_top {
+
+}
+
+#menu_right {
+
+}
+
+#board {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	width: 200px;
+	height: 100%;
+	border-radius: 5px;
+	border: 3px solid green;
+	background: url(img/txt_bg_reverse.jpg) no-repeat; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	overflow: auto;
+	z-index: 2;
+}
+
+#board ul li {
+	font-family: computer;
+	color: green;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#board ul li a {
+	font-family: computer;
+	color: green;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#board ul li a:hover {
+	font-family: computer;
+	color: green;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	z-index: 1;
+}
+
+#log {
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	float: left;
+	width: 200px;
+	height: 100%;
+	border-radius: 5px;
+	border: 3px solid green;
+	z-index: 2;
+	background: url(img/txt_bg.jpg) no-repeat; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	overflow: auto;
+}
+
+@font-face {
+    font-family: computer;
+    src: url(fonts/Calculator.ttf);
+}
+
+#log ul li {
+	font-family: computer;
+	color: green;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#caracteristics {
+	display: none;
+}
+
+#enemy_caracteristics {
+	display: none;
+}
